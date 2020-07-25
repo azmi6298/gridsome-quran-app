@@ -30,7 +30,6 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-    <h1>test</h1>
     <g-link
       v-for="result in searchResults"
       :key="result.id"
