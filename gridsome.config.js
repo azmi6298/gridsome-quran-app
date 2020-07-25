@@ -6,6 +6,8 @@
 
 module.exports = {
   siteName: 'Read Quran',
+  siteUrl: 'https://azmi6298.github.io',
+  pathPrefix: '/gridsome-quran-app',
   plugins: [
     {
       use: 'gridsome-plugin-flexsearch',

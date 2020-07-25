@@ -20,7 +20,6 @@
         id
       }
       number_of_ayah
-      number_of_surah
       place
       recitation
       type

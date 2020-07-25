@@ -30,7 +30,7 @@
   allSurah(order: ASC) {
     edges {
       node{
-        number_of_surah
+        id
         number_of_ayah
         name
         name_translations {
@@ -50,7 +50,7 @@ export default {
       perPage: 20,
       currentPage: 1,
       fields: [
-        { key: 'node.number_of_surah', label: 'No.'},
+        { key: 'node.id', label: 'No.'},
         { key: 'node.name', label: 'Surah Name'},
         { key: 'node.name_translations.en', label: 'EN Translation'},
         { key: 'node.name_translations.id', label: 'ID Translation'},
